@@ -56,7 +56,7 @@ li a::before{
     background: linear-gradient(to right, #dce35b, #45b649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-li a:hover::before{
+/* li a:hover::before{
     width: 100%;
 }
 ::-webkit-scrollbar{
@@ -67,8 +67,8 @@ li a:hover::before{
     background-color: rgb(219,219,219)
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(to bottom, #dce35b, #45b649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+    background: linear-gradient(to bottom, #dce35b, #45b649); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+} */
 #home{
     height: 100vh;
     background: 
