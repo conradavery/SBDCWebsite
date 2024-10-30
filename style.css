@@ -154,7 +154,54 @@ li a::before{
     cursor: pointer;
     scale: 1.05;
 }
+.tickets {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
 
+.tickets-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.venmo-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.venmo-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.tickets-content .secondp{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: bold !important;
+}
+
+.venmo-link:hover {
+    scale: 1.05;
+}
+
+.venmo-qr img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 .mission-img img{
     max-width: 400px;      /* Limit the width of the image */
@@ -333,9 +380,9 @@ li a::before{
 }
 footer{
     min-height: 70px;
-    background-color: lightgray;
-    opacity: 50%;
-    color: rgb(85, 85, 85);
+    background-color: black;
+    opacity: 80%;
+    color: white;
     text-align: center;
 }
 .footer-title {
